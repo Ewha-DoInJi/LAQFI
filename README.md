@@ -5,9 +5,10 @@
   - ddpm 모델 구현 및 훈련
   - generated image 생성
   - 생성된 이미지 저장
-  - FID score 계산
+  - FID score 및 메모리 계산
   - Fisher Information 값 계산
-  - 비교군(원본 모델, 전체 양자화) FID 및 메모리 측정
+  - **대조군** (원본 모델, 전체 양자화) 모델 FID 및 메모리 측정
+### 실험군 
 - `whole_threshold.py`: 전체 임계값 설정 후 양자화, FID 및 메모리 측정
 - `layer_group.py`: layer 그룹별 임계값 설정 후 양자화, FID 및 메모리 측정
 - `layer_ratio.py`: layer별 임계값 비율 설정 후 양자화, FID 및 메모리 측정
