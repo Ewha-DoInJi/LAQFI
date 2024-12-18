@@ -20,8 +20,10 @@
 ### 환경 세팅
 1. 서버 접속 <br>
    서버 계정 정보는 메일을 통해 공유드렸습니다!
+
+2. 디렉토리 이동: `cd LAQFI`
    
-2. conda 가상환경 설정하기 ('LAQFI' 위치로 cd 후 터미널에 명령어를 입력하여 실행)
+3. conda 가상환경 설정
   - conda 가상 환경 생성: `conda env create -f env.yml`
   - conda 가상 환경 활성화: `conda activate sd_env`
 
